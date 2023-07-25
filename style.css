@@ -18,10 +18,77 @@
     align-items: center;
 }
 
-#score {
-    width: 50px;
-    height: 70px;
-    border: 2px solid black;
-    position: static;
+.p1-score {
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+.p1-total {
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+.p2-score {
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+.p2-total {
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+}
+
+
+.p1-roll {
+    font-size: 16px;
+    padding: 7px 16px;
+    background-color: #4CAF50;
+    position: relative;
+    left: 680px;
+    bottom: 50px;
+
+}
+
+.p2-roll {
+    font-size: 16px;
+    padding: 7px 16px;
+    background-color: #4CAF50;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+
+}
+
+.p1-end {
+    font-size: 16px;
+    padding: 7px 16px;
+    background-color: #4CAF50;
+    position: relative;
+    left: 400px;
+    top: 0px;
+}
+
+.p2-end {
+    font-size: 16px;
+    padding: 7px 16px;
+    background-color: #4CAF50;
+    position: relative;
     left: 500px;
+    top: 0px;
+}
+
+.dice {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+.dice-2 {
+    position: relative;
+    bottom: 100px;
+    left: 300px;
 }
