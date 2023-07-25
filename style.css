@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-#game {
-    height: 1000px;
-    width: 1000px;
+body {
+    background-color: #A7C7E7;
 }
 
-#game h1 {
+
+
+h1 {
     height: 300px;
     width: 400px;
     position: relative;
@@ -19,27 +20,51 @@
 }
 
 .p1-score {
-    height: 300px;
-    width: 400px;
+    padding: 5px;
+    height: 35px;
+    width: 200px;
     font-size: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
 }
 
 .p1-total {
-    height: 300px;
-    width: 400px;
+    padding: 5px;
+    height: 35px;
+    width: 200px;
     font-size: 30px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
 }
 
 .p2-score {
-    height: 300px;
-    width: 400px;
+    padding: 5px;
+    height: 35px;
+    width: 200px;
     font-size: 30px;
+    position: relative;
+    bottom: 194px;
+    left: 900px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
 }
 
 .p2-total {
-    height: 300px;
-    width: 400px;
+    padding: 5px;
+    height: 35px;
+    width: 200px;
     font-size: 30px;
+    position: relative;
+    top: 7px;
+    left: 900px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
 }
 
 
@@ -48,8 +73,8 @@
     padding: 7px 16px;
     background-color: #4CAF50;
     position: relative;
-    left: 680px;
-    bottom: 50px;
+    left: 545px;
+    top: 35px;
 
 }
 
@@ -58,8 +83,8 @@
     padding: 7px 16px;
     background-color: #4CAF50;
     position: relative;
-    left: 800px;
-    bottom: 50px;
+    left: 820px;
+    top: 35px;
 
 }
 
@@ -68,8 +93,8 @@
     padding: 7px 16px;
     background-color: #4CAF50;
     position: relative;
-    left: 400px;
-    top: 0px;
+    left: 270px;
+    top: 90px;
 }
 
 .p2-end {
@@ -77,18 +102,49 @@
     padding: 7px 16px;
     background-color: #4CAF50;
     position: relative;
-    left: 500px;
-    top: 0px;
+    left: 510px;
+    top: 90px;
+}
+
+.reset {
+    font-size: 16px;
+    padding: 7px 16px;
+    background-color: #4CAF50;
+    position: relative;
+    left: 160px;
+    top: 200px;
 }
 
 .dice {
-    position: relative;
-    bottom: 100px;
-    left: 200px;
+    position: absolute;
+    bottom: 565px;
+    left: 950px;
 }
 
 .dice-2 {
-    position: relative;
-    bottom: 100px;
-    left: 300px;
+    position: absolute;
+    bottom: 565px;
+    left: 545px;
+}
+
+.p1-win {
+    width: 250px;
+    height: 50px;
+    color: darkcyan;
+    font-size: 40px;
+    position: absolute;
+    top: 770px;
+    left: 720px;
+
+}
+
+.p2-win {
+    width: 250px;
+    height: 50px;
+    color: darkcyan;
+    font-size: 40px;
+    position: absolute;
+    top: 770px;
+    left: 720px;
+
 }
