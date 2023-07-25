@@ -10,7 +10,7 @@ let p1Total = 0;
 let p1Score = 0;
 let p2Total = 0;
 let p2Score = 0;
-const goal = 2;
+const goal = 100;
 
 // Track player 1 score to increment and clear for each round
 const p1ScoreEl = document.querySelector('.p1-score')

@@ -118,13 +118,13 @@ h1 {
 .dice {
     position: absolute;
     bottom: 565px;
-    left: 950px;
+    left: 550px;
 }
 
 .dice-2 {
     position: absolute;
     bottom: 565px;
-    left: 545px;
+    left: 945px;
 }
 
 .p1-win {
