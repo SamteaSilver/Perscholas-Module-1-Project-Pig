@@ -14,16 +14,23 @@ If the player rolls a 1 his turn is over, he loses all points he accumulated tha
 
 Play passes from player to player until a winner is determined.
 
+The rest button restarts the game. 
+
 
 ## Approach
 
+
 I tried to get the functionality done first. For example, I started with implementing the dice roll function first to see if I can roll the die instead of trying to implement the whole functionality of the dice roll including the logic to detect a 1, and then what happens after, etc. 
+
+I also researched and took inspiration from how people coded their own version of pig.
 
 ## Struggles
 
 I struggled with getting things started. It became a lot easier to work on the project once I knew the priority and the order of functions I wanted to implement. It also helped that I had a psuedocode to reference when I was getting stuck
 
-##s Improvements
+I also struggled reading back at my code because of the similar variable names.
+
+## Improvements
 
 - Dice roll animation
 - Implement other ways to play
