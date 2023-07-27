@@ -29,6 +29,7 @@ h1 {
     left: 500px;
     border: 1px solid black;
     box-shadow: 2px 2px;
+    background-color: #218380;
 }
 
 .p1-total {
@@ -41,6 +42,7 @@ h1 {
     left: 500px;
     border: 1px solid black;
     box-shadow: 2px 2px;
+    background-color: #218380;
 }
 
 .p2-score {
@@ -53,6 +55,7 @@ h1 {
     left: 900px;
     border: 1px solid black;
     box-shadow: 2px 2px;
+    background-color: #B22222;
 }
 
 .p2-total {
@@ -65,6 +68,7 @@ h1 {
     left: 900px;
     border: 1px solid black;
     box-shadow: 2px 2px;
+    background-color: #B22222;
 }
 
 
@@ -75,6 +79,7 @@ h1 {
     position: relative;
     left: 545px;
     top: 35px;
+
 
 }
 
@@ -95,6 +100,7 @@ h1 {
     position: relative;
     left: 270px;
     top: 90px;
+    background-color: lavender;
 }
 
 .p2-end {
@@ -104,6 +110,7 @@ h1 {
     position: relative;
     left: 510px;
     top: 90px;
+    background-color: lavender;
 }
 
 .reset {
@@ -113,17 +120,18 @@ h1 {
     position: relative;
     left: 160px;
     top: 200px;
+    background-color: #4169E1;
 }
 
 .dice {
     position: absolute;
-    bottom: 565px;
-    left: 550px;
+    bottom: 543px;
+    left: 533px;
 }
 
 .dice-2 {
     position: absolute;
-    bottom: 565px;
+    bottom: 543px;
     left: 945px;
 }
 
@@ -147,4 +155,24 @@ h1 {
     top: 770px;
     left: 720px;
 
+}
+
+.p1-roll:hover {
+    box-shadow: 3px 3px;
+}
+
+.p1-end:hover {
+    box-shadow: 3px 3px;
+}
+
+.p2-roll:hover {
+    box-shadow: 3px 3px;
+}
+
+.p2-end:hover {
+    box-shadow: 3px 3px;
+}
+
+.reset:hover {
+    box-shadow: 3px 3px;
 }
