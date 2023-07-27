@@ -20,20 +20,21 @@ h1 {
 }
 
 .p1-score {
-    padding: 5px;
+    padding: 4px;
     height: 35px;
     width: 200px;
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
     bottom: 100px;
     left: 500px;
     border: 1px solid black;
     box-shadow: 2px 2px;
     background-color: #218380;
+    text-align: center;
 }
 
 .p1-total {
-    padding: 5px;
+    padding: 4px;
     height: 35px;
     width: 200px;
     font-size: 30px;
@@ -43,23 +44,25 @@ h1 {
     border: 1px solid black;
     box-shadow: 2px 2px;
     background-color: #218380;
+    text-align: center;
 }
 
 .p2-score {
-    padding: 5px;
+    padding: 4px;
     height: 35px;
     width: 200px;
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
     bottom: 194px;
     left: 900px;
     border: 1px solid black;
     box-shadow: 2px 2px;
     background-color: #B22222;
+    text-align: center;
 }
 
 .p2-total {
-    padding: 5px;
+    padding: 4px;
     height: 35px;
     width: 200px;
     font-size: 30px;
@@ -69,6 +72,7 @@ h1 {
     border: 1px solid black;
     box-shadow: 2px 2px;
     background-color: #B22222;
+    text-align: center;
 }
 
 

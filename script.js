@@ -56,7 +56,7 @@ p1RollEl.addEventListener('click', function (evt) {
 })
 
 
-// Adds score to the total and ends turn (need to implement end turn )
+// Adds score to the total and ends turn
 const p1EndEl = document.querySelector('.p1-end');
 
 p1EndEl.addEventListener('click', function (evt) {
@@ -81,7 +81,7 @@ p1EndEl.addEventListener('click', function (evt) {
 
 
 
-
+// Player 2 dice roll
 let p2RollEl = document.querySelector('.p2-roll');
 
 p2RollEl.addEventListener('click', function () {
@@ -139,7 +139,7 @@ p2EndEl.addEventListener('click', function (evt) {
 p2RollEl.disabled = true;
 p2EndEl.disabled = true;
 
-
+// Reset button 
 const resetEl = document.querySelector('.reset');
 
 resetEl.addEventListener('click', function () {
