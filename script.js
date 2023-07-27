@@ -1,11 +1,14 @@
+
+// Win texts display set to none by default 
 const p1WinEl = document.querySelector('.p1-win');
 p1WinEl.style.display = 'none'
 const p2WinEl = document.querySelector('.p2-win');
 p2WinEl.style.display = 'none'
 
-// Rolling a die 
+// Rolling player 1 die 
 const p1RollEl = document.querySelector('.p1-roll');
 
+// Set scores and Total to 0 by defualt. First to 100 points win
 let p1Total = 0;
 let p1Score = 0;
 let p2Total = 0;
